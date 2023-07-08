@@ -42,15 +42,10 @@ h2 {
  
 }
  
-
-
 #logo, #menu {
     line-height: 75px;
     background-color: #941983;
 }
-
-
-
 
 #menu li {
     float: right;
@@ -59,7 +54,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    /* color: inherit; */
+    color: inherit;
     
 }
 
@@ -151,6 +146,41 @@ h2 {
 
 
 
+#products {
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
 
+#products div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .5);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+} 
 
+footer {
+    height: 150px;
+}
 
+.social-network {
+    text-align: center;
+}
+
+.social-network li {
+    display: inline; 
+}
+
+.social-network i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;   
+}
