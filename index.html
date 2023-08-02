@@ -12,31 +12,372 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <h2 id="logo">Nur Home Interiors</h2>
+
+    <!-- Header -->
+
+    <!-- <header id="header" class="sticky active">  -->
+    <header id="header">
+        <a href="#" class="logo">
+            <h1>Nur Home Interiors</h1>
+            <h2>Istanbul</h2>
         </a>
-        <nav>
-            <ul id="menu">
 
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+        <ul>
 
-                <li>
-                    <a href="#" class="active">Gallery</a>
-                </li>
+            <li>
+                <a href="#home" onclick="toggle()">Home</a>
+            </li>
 
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
+            <li>
+                <a href="#about" onclick="toggle()">About</a>
+            </li>
+            <li>
+                <a href="#services" onclick="toggle()">Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick="toggle()">Portfolio</a>
+            </li>
 
-            </ul>
+            <li>
+                <a href="#team" onclick="toggle()">Team</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="toggle()">Contact</a>
+            </li>
 
-        </nav>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
     </header>
 
+    <!-- Banner -->
+
+    <section class="banner" id="home">
+        <h2><span>"Happiness </span> is not something you <span> postpone </span> for the<br><span> future </span> it is
+            something your<span> design </span>for the present!"<br>
+            <p>&#8275; Jim Rohn</p>
+        </h2>
+    </section>
+
+    <!-- About -->
+
     <section id="about-outer">
+        <div id="bg-color">
+            <div id="about-image">
+                <div id="about-text">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p" id="nur-image">
+                <h3>Meet Nur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis neque. Dolor ab
+                    porro
+                    laboriosam expedita, molestiae delectus at dignissimos blanditiis aspernatur voluptatum, soluta
+                    et?
+                    Officiis quae quod deleniti aut.</p>
+                <a href="#" class="btn">Read My Story</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services -->
+
+    <section class="sec" id="services">
+
+        <div class="content">
+            <div class="mxw800p">
+                <h3>What We Do</h3>
+                <h4>Design Phases</h4>
+                <h5>Phase 1: Consultation Meeting</h5>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dignissimos deserunt sequi, sint
+                    voluptas recusandae reiciendis quibusdam consequatur officiis facere accusantium quos voluptatibus
+                    reprehenderit veniam? Nemo vitae eaque quibusdam incidunt.
+                </p>
+                <h5>Phase 2: Concept, Research and Present</h5>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dignissimos deserunt sequi, sint
+                    voluptas recusandae reiciendis quibusdam consequatur officiis facere accusantium quos voluptatibus
+                    reprehenderit veniam? Nemo vitae eaque quibusdam incidunt.
+                </p>
+                <h4>Phase 3: Production and Completion</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dignissimos deserunt sequi, sint
+                    voluptas recusandae reiciendis quibusdam consequatur officiis facere accusantium quos voluptatibus
+                    reprehenderit veniam? Nemo vitae eaque quibusdam incidunt.
+                </p>
+            </div>
+
+            <div class="services">
+                <div class="box">
+                    <!-- <div class="iconBx">
+                <img src="icon1.png">
+            </div> -->
+                    <div class="content">
+                        <h5>Phase 1: Consultation Meeting</h5>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dignissimos deserunt
+                            sequi,
+                            sint
+                            voluptas recusandae reiciendis quibusdam consequatur officiis facere accusantium quos
+                            voluptatibus
+                            reprehenderit veniam? Nemo vitae eaque quibusdam incidunt.
+                        </p>
+
+                        <!-- <h2>Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum similique doloremque
+                    error. </p> -->
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="iconBx">
+                        <img src="icon2.png">
+                    </div>
+                    <div class="content">
+                        <h2>Development</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dignissimos deserunt
+                            sequi,
+                            sint voluptas recusandae reiciendis quibusdam consequatur officiis facere accusantium quos
+                            voluptatibus reprehenderit veniam? Nemo vitae eaque quibusdam incidunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="iconBx">
+                        <img src="icon3.png">
+                    </div>
+                    <div class="content">
+                        <h2>Deploy Branding</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum similique doloremque
+                            error. </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Portfolio    SWtats-->
+
+    <section class="sec stats">
+        <div class="content">
+            <div class="mxw800p" id="nur-image">
+                <h3>My Achievements</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis neque. Dolor ab
+                    porro
+                    laboriosam expedita, molestiae delectus at dignissimos blanditiis aspernatur voluptatum, soluta
+                    et?
+                    Officiis quae quod deleniti aut.</p>
+            </div>
+
+            <div class="statsBox">
+                <div class="box">
+                    <h2>1200+</h2>
+                    <h4>Projects</h4>
+                </div>
+                <div class="box">
+                    <h2>800+</h2>
+                    <h4>Happy Clients</h4>
+                </div>
+                <div class="box">
+                    <h2>150+</h2>
+                    <h4>Countries</h4>
+                </div>
+                <div class="box">
+                    <h2>50+</h2>
+                    <h4>Awards</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section class="sec work" id="portfolio">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Recent Work</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis neque. Dolor ab
+                    porro
+                    laboriosam expedita, molestiae delectus at dignissimos blanditiis aspernatur voluptatum, soluta
+                    et?
+                    Officiis quae quod deleniti aut.</p>
+            </div>
+
+            <div class="workBx">
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="workBx">
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+                <div class="brand">
+                    <a href="#">
+                        <h2>Brand Name</h2>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+
+    <section class="sec" id="team">
+        <div class="content">
+            <div class="mxw800p" id="nur-image">
+                <h3>Meet the Expert</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis neque. Dolor ab
+                    porro
+                    laboriosam expedita, molestiae delectus at dignissimos blanditiis aspernatur voluptatum, soluta
+                    et?
+                    Officiis quae quod deleniti aut.</p>
+            </div>
+            <div class="teamBx">
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="1.jpg">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>Nur<br><span>Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="2.jpg">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>Nur<br><span>Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="3.jpg">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>Nur<br><span>Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="4.jpg">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>Nur<br><span>Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="sec contact" id="contact">
+        <div class="content">
+            <div class="mxw800p" id="nur-image">
+                <h3>Send Us A Message</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis neque. Dolor </p>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <div class="row100">
+                        <div class="inputBx50">
+                            <input type="text" name="" placeholder="Full Name">
+                        </div>
+                        <div class="inputBx50">
+                            <input type="text" name="" placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputBx100">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputBx100">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="sci">
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <p class="copyright">Designed & Developed By <a href="#">Luigina Argentin</a></p>
+        </div>
+    </section>
+    <!-- <section id="about-outer">
         <div id="bg-color">
             <div id="about-image"></div>
             <div id="about-text">
@@ -46,9 +387,18 @@
                 </h3>
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- 
+<section id="about">
 
-    <section id="products">
+
+</section> -->
+
+
+
+
+
+    <!-- <section id="products">
         <div>
             <h3>Textiles</h3>
             <h5>and</h5>
@@ -97,10 +447,27 @@
             <li><ion-icon name="logo-linkedin"></ion-icon></li>
             <li><ion-icon name="logo-youtube"></ion-icon></li>
         </ul>
+<ion-icon name="logo-whatsapp"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+    </footer> -->
+
+
+    <script type="text/javascript">
+        window.addEventListerner("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
 
 
 
-    </footer>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
